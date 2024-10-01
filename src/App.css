@@ -1,0 +1,55 @@
+.msg {
+  padding: 10px;
+  width: fit-content;
+  height: fit-content;
+  background: linear-gradient(to left, rgb(43, 255, 255), blue);
+  /* background-color: rgba(0, 0, 0, 0.605);
+  padding: 10px; */
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+  & h1 {
+    text-transform: capitalize;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-weight: light;
+    & .name {
+      font-family: "Caveat", cursive;
+      font-optical-sizing: auto;
+      font-weight: bolder;
+      font-style: normal;
+      color: rgb(254, 233, 0);
+      font-size: larger;
+      display: inline;
+    }
+  }
+}
+
+.contenedor {
+  margin-top: 20px;
+  width: fit-content;
+  height: fit-content;
+  padding: 20px;
+  border: solid black;
+  border-radius: 10px;
+}
+
+.contador {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  & h1 {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+  & button {
+    padding: 5px 10px;
+    cursor: pointer;
+    font-weight: bolder;
+    border-radius: 5px;
+    background: linear-gradient(to left, rgb(43, 255, 255), blue);
+  }
+  & button:hover {
+    background: white;
+  }
+}
